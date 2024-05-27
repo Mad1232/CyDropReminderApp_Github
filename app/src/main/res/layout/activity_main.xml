@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/isu"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/signIn"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:text="Login/Sign Up"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/gold"
+        android:textColor="@color/isu"
+        android:layout_below="@+id/editText_password"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/editText_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signIn"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="#30ffffff"
+        android:hint="Username"
+        android:drawableLeft="@drawable/person"
+        android:drawablePadding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText_username"
+        android:layout_marginTop="8dp"
+        android:padding="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="#30ffffff"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText_password"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:padding="16dp"
+        android:text="New here? SignUp"
+        android:textSize="20dp"
+        android:textColor="@color/blue"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="-20dp"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:text="Never miss a drop."
+        android:textColor="@color/gold"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginTop="-35dp"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:text="Stay on track with our app!"
+        android:textColor="@color/gold"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="311dp"
+        android:layout_height="181dp"
+        android:layout_below="@id/textView4"
+        android:layout_marginTop="-26dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView4"
+        android:gravity="center"
+        android:text="CyDrop Reminder"
+        android:textColor="@color/gold"
+        android:textSize="40sp"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentBottom="true"
+
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".NewPetActivity">
+
+    <TextView
+        android:id="@+id/petinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pet Info"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_below="@id/petinfo"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:padding="16dp"
+        android:background="#50cccccc"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <Spinner
+        android:id="@+id/pet_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="#50cccccc" />
+
+    <Spinner
+        android:id="@+id/sex_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pet_spinner"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="#50cccccc" />
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter DOB(mm/dd/yy)"
+        android:layout_below="@id/sex_spinner"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:padding="16dp"
+        android:background="#50cccccc"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/breed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Breed(None if not sure)"
+        android:layout_below="@id/dob"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:padding="16dp"
+        android:background="#50cccccc"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+
+    <Spinner
+        android:id="@+id/diagnosis_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/breed"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="#50cccccc" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/diagnosis"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Diagnosis(None for N/A)"-->
+<!--        android:layout_below="@id/diagnosis_spinner"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:padding="16dp"-->
+<!--        android:background="#50cccccc"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textColorHint="@color/black" />-->
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/diagnosis_spinner"
+        android:text="Submit"
+        android:backgroundTint="@color/blue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">CyDropReminderApp</string>
+    <string-array name="pet_options">
+        <item>Choose Your Pet</item>
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Horse</item>
+        <item>Rabbit</item>
+    </string-array>
+
+    <string-array name="sex_options">
+        <item>Choose Sex</item>
+        <item>Male Entire</item>
+        <item>Male Castrated</item>
+        <item>Female Entire</item>
+        <item>Female Splayed</item>
+    </string-array>
+
+    <string-array name="diagnosis_options">
+        <item>Choose Diagnosis(None)</item>
+        <item>Corneal abscess</item>
+        <item>Corneal edema (endothelial degeneration)</item>
+        <item>Corneal foreign body</item>
+        <item>Corneal fungal infection (fungal keratitis)</item>
+        <item>Corneal keratitis (herpes virus)</item>
+        <item>Corneal laceration</item>
+        <item>Corneal lipid/mineral deposits</item>
+        <item>Corneal pigmentation</item>
+        <item>Corneal sequestrum</item>
+        <item>Corneal ulcer (deep)</item>
+        <item>Corneal ulcer (superficial)</item>
+        <item>Cataracts</item>
+        <item>Cherry eye (prolapse of the third eyelid gland)</item>
+        <item>Conjunctivitis</item>
+        <item>Conjunctivitis (allergy)</item>
+        <item>Conjunctivitis (herpes virus)</item>
+        <item>Distichiae</item>
+        <item>Dry eye syndrome</item>
+        <item>Ectopic cilia</item>
+        <item>Ectropion</item>
+        <item>Eosinophilic keratitis</item>
+        <item>Equine recurrent uveitis (ERU)</item>
+        <item>Entropion</item>
+        <item>FIP (Feline Infectious Peritonitis)</item>
+        <item>Glaucoma (primary)</item>
+        <item>Glaucoma (secondary to another disease; e.g. cataract surgery, inflammation)</item>
+        <item>Hyphema (blood in the anterior chamber of the eye)</item>
+        <item>Immune-mediated keratitis</item>
+        <item>Immune-mediated keratitis (endothelial)</item>
+        <item>Immune-mediated keratitis (stromal)</item>
+        <item>Immune-mediated keratitis (superficial)</item>
+        <item>Indolent ulcer</item>
+        <item>Intraocular tumor</item>
+        <item>Keratoconjunctivitis sicca (KCS; low tear production)</item>
+        <item>Lens luxation (anterior)</item>
+        <item>Lens luxation (posterior)</item>
+        <item>Melanoma</item>
+        <item>Melting ulcer</item>
+        <item>Neoplasia</item>
+        <item>Optic neuritis</item>
+        <item>Pannus (chronic superficial keratitis)</item>
+        <item>Post-cataract surgery (phacoemulsification)</item>
+        <item>Post-corneal surgery</item>
+        <item>Post-corneal surgery (CCT: Corneoconjunctival transposition)</item>
+        <item>Post-corneal surgery (conjunctival graft)</item>
+        <item>Post-corneal surgery (corneal graft)</item>
+        <item>Post-glaucoma surgery</item>
+        <item>Progressive retinal atrophy (PRA)</item>
+        <item>Retinal detachment</item>
+        <item>SCCED (spontaneous chronic corneal epithelial defect)</item>
+        <item>Senile retinal atrophy</item>
+        <item>Squamous cell carcinoma (cornea)</item>
+        <item>Squamous cell carcinoma (eyelid)</item>
+        <item>Sudden Acquired Retinal Degeneration Syndrome (SARDS)</item>
+        <item>Systemic hypertension</item>
+        <item>Uveitis (inflammation of the uvea)</item>
+    </string-array>
+</resources>
