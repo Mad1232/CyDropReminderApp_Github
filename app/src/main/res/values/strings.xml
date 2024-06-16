@@ -1,5 +1,69 @@
 <resources>
     <string name="app_name">CyDropReminderApp</string>
+
+    <string-array name="concentration_options">
+        <item>Choose Your Concentration</item>
+        <item>0.10%</item>
+        <item>1%</item>
+        <item>0.50%</item>
+        <item>0.30%</item>
+        <item>0.5%</item>
+        <item>1%</item>
+        <item>2%</item>
+        <item>2%/0.5%</item>
+        <item>2.5%</item>
+        <item>5%</item>
+        <item>0.005%</item>
+        <item>3.5GM</item>
+        <item>0.1%</item>
+        <item>0.3%</item>
+        <item>2.5-10%</item>
+        <item>0.1-2%</item>
+        <item>1:50</item>
+        <item>0.03%</item>
+        <item>15mg/ml</item>
+        <item>1.25mg</item>
+        <item>1mg</item>
+        <item>5mg</item>
+        <item>10mg</item>
+        <item>20mg</item>
+        <item>25mg</item>
+        <item>57mg</item>
+        <item>75mg</item>
+        <item>80mg</item>
+        <item>100mg</item>
+        <item>125mg</item>
+        <item>150mg</item>
+        <item>227mg</item>
+        <item>250mg</item>
+        <item>300mg</item>
+        <item>375mg</item>
+        <item>500mg</item>
+        <item>40U/ML</item>
+        <item>150mg</item>
+        <item>1500 mg flunixin/syringe</item>
+        <item>20mg/ml</item>
+    </string-array>
+
+    <string-array name="oral_options">
+        <item>Choose Oral/Topical</item>
+        <item>Oral</item>
+        <item>Eye Drop</item>
+        <item>Eye Ointment</item>
+        <item>Eye Solution</item>
+    </string-array>
+
+    <string-array name="dose_options">
+        <item>Choose Dose Frequency</item>
+        <item>1 times daily</item>
+        <item>2 times daily</item>
+        <item>3 times daily</item>
+        <item>4 times daily</item>
+        <item>5 times daily</item>
+        <item>6 times daily</item>
+    </string-array>
+
+
     <string-array name="pet_options">
         <item>Choose Your Pet</item>
         <item>Dog</item>
@@ -74,5 +138,7 @@
         <item>Sudden Acquired Retinal Degeneration Syndrome (SARDS)</item>
         <item>Systemic hypertension</item>
         <item>Uveitis (inflammation of the uvea)</item>
+
+
     </string-array>
 </resources>

@@ -22,6 +22,16 @@
         android:layout_marginTop="-25dp"
         android:src="@drawable/gear" />
 
+    <ImageView
+        android:id="@+id/alert"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="-5dp"
+        android:src="@drawable/alert" />
+
+
+
     <TextView
         android:id="@+id/pet"
         android:layout_width="wrap_content"
@@ -41,6 +51,18 @@
         android:orientation="vertical"
         android:padding="16dp"
         android:layout_marginTop="80dp"/>
+
+    <Button
+        android:id="@+id/delete_pet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Pet?"
+        android:backgroundTint="@color/isu"
+        android:textSize="17dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/pet_container"
+
+    />
 
 
 </RelativeLayout>

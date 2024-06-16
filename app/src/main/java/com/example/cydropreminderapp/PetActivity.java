@@ -3,6 +3,7 @@ package com.example.cydropreminderapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -54,6 +55,25 @@ public class PetActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent2 = new Intent(PetActivity.this, SettingsActivity.class);
                 startActivity(intent2);
+            }
+        });
+
+        Button delete = findViewById(R.id.delete_pet);
+        delete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent deleteintent = new Intent(PetActivity.this, DeletePetActivity.class);
+                deleteintent.putParcelableArrayListExtra("petList",petList); //this is used to pass petList arraylist as a prop to DeletePetActivity
+                startActivity(deleteintent);
+            }
+        });
+
+        ImageView alert = findViewById(R.id.alert);
+        alert.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent drugs_page = new Intent(PetActivity.this, AlertActivity.class);
+                startActivity(drugs_page);
             }
         });
 
