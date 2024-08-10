@@ -20,8 +20,9 @@
         android:id="@+id/drug_autocomplete"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/drugs"
         android:padding="16dp"
+        android:layout_below="@id/drugs"
+        android:hint="Type drug Name"
         android:layout_marginTop="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
@@ -81,10 +82,44 @@
         android:layout_marginTop="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:textSize="16dp"
-        android:visibility="gone" />
+        android:textSize="16dp" />
 
+<!--    <Button-->
+<!--        android:id="@+id/ok"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/recommendation_text"-->
+<!--        android:text="OK"-->
+<!--        android:backgroundTint="@color/blue"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="10dp" />-->
 
+    <Button
+        android:id="@+id/set_time_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Time"
+        android:layout_below="@id/recommendation_text"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/selected_time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No time selected"
+        android:layout_below="@id/set_time_button"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/set_alarm_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Alarm"
+        android:layout_below="@id/selected_time_text"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>

@@ -63,6 +63,54 @@
         <item>6 times daily</item>
     </string-array>
 
+    <string-array name="drug_names">
+        <item>Diclofenac</item>
+        <item>Atropine</item>
+        <item>Chloramphenicol</item>
+        <item>Cidofovir</item>
+        <item>Ciprofloxacin</item>
+        <item>Cyclosporine</item>
+        <item>Dorzolamide</item>
+        <item>Dorzolamide/timolol</item>
+        <item>Dexamethasone</item>
+        <item>EDTA</item>
+        <item>Erythromycin</item>
+        <item>Gentamicin</item>
+        <item>Latanoprost</item>
+        <item>Sodium Chloride</item>
+        <item>Neo/Poly/Bac</item>
+        <item>Neo/Poly/Gram</item>
+        <item>Neo/Poly/Dex</item>
+        <item>Nepafenac</item>
+        <item>Ofloxacin</item>
+        <item>Optimmune</item>
+        <item>Phenylephrine</item>
+        <item>Pilocarpine</item>
+        <item>Povidone Iodine</item>
+        <item>Prednisolone Acetate</item>
+        <item>Tacrolimus</item>
+        <item>Timolol</item>
+        <item>Tobramycin</item>
+        <item>Tropicamide</item>
+        <item>Carprofen</item>
+        <item>Cephalexin</item>
+        <item>Amoxicillin-Clavulanic Acid</item>
+        <item>Clindamycin</item>
+        <item>Doxycycline</item>
+        <item>Famciclovir</item>
+        <item>Fluconazole</item>
+        <item>Flunixin meglumine paste</item>
+        <item>Gabapentin</item>
+        <item>Itraconazole</item>
+        <item>Meloxicam</item>
+        <item>Robenacoxib</item>
+        <item>Prednisolone</item>
+        <item>Firocoxib</item>
+        <item>Trazodone</item>
+        <item>Voriconazole</item>
+        <item>Vetsulin</item>
+    </string-array>
+
 
     <string-array name="pet_options">
         <item>Choose Your Pet</item>
@@ -70,6 +118,13 @@
         <item>Cat</item>
         <item>Horse</item>
         <item>Rabbit</item>
+    </string-array>
+
+    <string-array name="eye_options">
+        <item>Choose Eye</item>
+        <item>Right Eye</item>
+        <item>Left Eye</item>
+        <item>Both</item>
     </string-array>
 
     <string-array name="sex_options">
@@ -138,7 +193,10 @@
         <item>Sudden Acquired Retinal Degeneration Syndrome (SARDS)</item>
         <item>Systemic hypertension</item>
         <item>Uveitis (inflammation of the uvea)</item>
+    </string-array>
 
-
+    <string-array name="am_pm_options">
+        <item>AM</item>
+        <item>PM</item>
     </string-array>
 </resources>
